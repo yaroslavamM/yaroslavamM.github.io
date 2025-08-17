@@ -4,10 +4,12 @@
 </head>
 <body id="main">
   <h1>ePortfolio of Yaroslava Meleshkevich</h1>
+
   <h3>Code Review</h3>
   <video width="831" height="540" controls="true" loop="false">
     <source type="video/mp4" src="/CS-499_M2.mp4" />
   </video>
+
   <h3>Enhancement One: Software Design and Engineering</h3>
   <p>
     <b>What is it?</b> This artifact is a mobile Android application designed for managing a list of events. Users can view existing events, add new events through a modal dialog, and delete events using a swipe gesture. Each event displays a title, description, and date.
@@ -43,5 +45,58 @@
     I made almost all the planned updates to the application, except for the filtering and sorting events functionality. After assessing the changes required to implement this functionality, I decided that it would take too many changes to the application and would exceed the scope of the planned improvements.
   </p>
   <p>Link to the code: <a href="https://github.com/yaroslavamM/CS-499/tree/main/CS-360">CS-360</a></p>
+
+  <h3>Enhancement Two: Algorithms and Data Structure</h3>
+  <p>
+    <b>What is it? When was it created?</b> The artifact is a Contact, Task, and Appointment Service System that was originally created during the CS-320 Software Testing, Automation, and QA class. This system manages contact information with features for creating, storing, validating, and managing contact records. The original version was implemented in Java, but you have since rewritten and enhanced it in Go to demonstrate improved performance and cross-platform capabilities.<br/>
+    The system includes:
+    <ul>
+      <li>Contact entity with validation for ID, first name, last name, phone number, and address</li>
+      <li>Service layer for managing contact operations</li>
+      <li>Comprehensive unit testing with table-driven test cases</li>
+      <li>Performance benchmarking capabilities</li>
+    </ul>
+  </p>
+  <p>
+    <b>Why did you select this item?</b>
+    This artifact showcases several key skills and abilities in algorithms and data structures: Data Structure Enhancement: I improved performance by replacing ArrayList with HashMap for storage, demonstrating understanding of how different data structures impact performance. HashMap provides O(1) average time complexity for lookups compared to ArrayList's O(n) linear search.
+    <br />
+    Cross-Platform Development: Rewriting the entire system in Go demonstrates adaptability and understanding of different programming paradigms while maintaining the same core functionality.
+    <br />
+    Testing and Benchmarking: The comprehensive unit tests using Go's table-driven testing approach show strong testing methodology and the ability to measure and compare performance across different implementations.
+    <br />
+    Validation and Data Integrity: The robust validation system (as seen in the test cases) demonstrates understanding of data integrity constraints and error handling.
+  </p>
+  <p>
+    <b>Course Outcomes Coverage</b>
+    <br />
+    The enhancement likely meets several key course outcomes:
+    <ul>
+      <li>Algorithm Analysis: Comparing ArrayList vs HashMap performance demonstrates understanding of algorithm complexity and performance analysis</li>
+      <li>Data Structure Implementation: Practical application of different data structures and their trade-offs</li>
+      <li>Software Quality: Comprehensive testing suite with edge cases and validation scenarios</li>
+      <li>Cross-Platform Development: Demonstrating language-agnostic problem-solving skills</li>
+    </ul>
+  </p>
+  <p>
+    <b>Reflection on the Enhancement Process</b>
+    <br />
+    Learning Outcomes:
+    <ul>
+      <li>Performance Analysis: You learned to measure and compare the performance characteristics of different data structures in real-world scenarios</li>
+      <li>Language Translation: Converting Java code to Go provided insights into different programming paradigms and language-specific optimizations</li>
+      <li>Testing Methodologies: Implementing Go's table-driven testing approach enhanced your understanding of comprehensive test coverage</li>
+      <li>Benchmarking: Creating performance benchmarks allowed you to quantify improvements objectively</li>
+    </ul>
+    Challenges Faced:
+    <ul>
+      <li>Language Differences: Adapting Java object-oriented patterns to Go's more procedural approach while maintaining code clarity</li>
+      <li>Testing Framework Differences: Learning Go's built-in testing framework and adapting Java unit test patterns to Go's table-driven approach</li>
+      <li>Performance Measurement: Ensuring fair comparison between Java ArrayList/HashMap and Go equivalents across different runtime environments</li>
+      <li>Validation Logic: Maintaining the same validation rules while adapting to Go's error handling patterns</li>
+    </ul>
+    This artifact effectively demonstrates your growth in understanding data structures, performance optimization, and cross-platform development while maintaining strong software quality practices through comprehensive testing.
+  </p>
+  <p>Link to the code: <a href="https://github.com/yaroslavamM/CS-499/tree/main/CS-320">CS-320</a></p>
 </body>
 </html>
